@@ -6,7 +6,7 @@ on:
 jobs:
   check-python-version:
     runs-on:ubuntu-latest
-    stops:
+    steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.6.9
         uses: actions/setup-python@v2
